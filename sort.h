@@ -23,5 +23,10 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void print_list(const listint_t *list);
+int arrangement(int *array, int min_index, int pivot_index, size_t size);
+void lomuto_sorting(int *array, int min_index, int pivot_index, size_t size);
+void quick_sort(int *array, size_t size);
+
+
 
 #endif /* SORT_H */
